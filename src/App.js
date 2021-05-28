@@ -1,7 +1,7 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
 
-function App() {
+function App({ handleClick }) {
   return (
     <div className="App">
       <header className="App-header">
@@ -18,6 +18,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <button onClick={handleClick}></button>
     </div>
   );
 }
